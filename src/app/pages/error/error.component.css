@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.section {
+  width: 593px;
+  height: 417px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: transparent;
+  text-align: center;
+  font-size: 15rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  font-family: var(--main-font);
+
+  background-image: url(src/assets/images/Image.png);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+p {
+  color: var(--main-white);
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+button {
+  display: inline-flex;
+  padding: 14px 24px 14px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 14px;
+  border: 1px solid var(--Surface-1, #202123);
+  background: rgba(255, 212, 34, 0.1);
+  color: var(--main-yellow);
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+button:hover {
+  cursor: pointer;
+}
