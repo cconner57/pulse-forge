@@ -16,9 +16,12 @@ import { ECommerceComponent } from './pages/e-commerce/e-commerce.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { MoneyComponent } from './pages/money/money.component';
 import { CustomersComponent } from './pages/customers/customers.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { SignInComponent } from './pages/sign-in/sign-in.component';
+import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 
 @NgModule({
-  declarations: [AppComponent, ErrorComponent, ContactsComponent, CalendarComponent, NotesComponent, FileManagerComponent, ProjectManagementComponent, TaskBoardComponent, InboxComponent, ChatComponent, ECommerceComponent, DashboardComponent, MoneyComponent, CustomersComponent],
+  declarations: [AppComponent, ErrorComponent, ContactsComponent, CalendarComponent, NotesComponent, FileManagerComponent, ProjectManagementComponent, TaskBoardComponent, InboxComponent, ChatComponent, ECommerceComponent, DashboardComponent, MoneyComponent, CustomersComponent, RegisterComponent, SignInComponent, ForgotPasswordComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
