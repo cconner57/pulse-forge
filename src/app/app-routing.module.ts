@@ -61,7 +61,7 @@ const routes: Routes = [
     title: 'Money page',
   },
   {
-    path: 'Notes',
+    path: 'notes',
     component: NotesComponent,
     title: 'Notes page',
   },

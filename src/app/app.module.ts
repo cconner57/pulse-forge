@@ -19,9 +19,31 @@ import { CustomersComponent } from './pages/customers/customers.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
+import { SearchbarComponent } from './components/searchbar/searchbar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
-  declarations: [AppComponent, ErrorComponent, ContactsComponent, CalendarComponent, NotesComponent, FileManagerComponent, ProjectManagementComponent, TaskBoardComponent, InboxComponent, ChatComponent, ECommerceComponent, DashboardComponent, MoneyComponent, CustomersComponent, RegisterComponent, SignInComponent, ForgotPasswordComponent],
+  declarations: [
+    AppComponent,
+    ErrorComponent,
+    ContactsComponent,
+    CalendarComponent,
+    NotesComponent,
+    FileManagerComponent,
+    ProjectManagementComponent,
+    TaskBoardComponent,
+    InboxComponent,
+    ChatComponent,
+    ECommerceComponent,
+    DashboardComponent,
+    MoneyComponent,
+    CustomersComponent,
+    RegisterComponent,
+    SignInComponent,
+    ForgotPasswordComponent,
+    SearchbarComponent,
+    NavbarComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
