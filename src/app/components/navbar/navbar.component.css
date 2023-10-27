@@ -21,7 +21,7 @@
     line-height: normal;
     max-height: 30px;
   }
-  image {
+  img {
     max-width: 30px;
   }
 }
@@ -44,7 +44,7 @@
     & p {
       color: var(--Accent, #2d99ff);
     }
-    & image {
+    & img {
       filter: invert(43%) sepia(67%) saturate(811%) hue-rotate(177deg)
         brightness(107%) contrast(101%);
     }
