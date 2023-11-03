@@ -43,6 +43,7 @@
     background: var(--accent-opacity-12, rgba(26, 142, 255, 0.12));
     & p {
       color: var(--Accent, #2d99ff);
+      cursor: pointer;
     }
     & img {
       filter: invert(43%) sepia(67%) saturate(811%) hue-rotate(177deg)

@@ -1,7 +1,47 @@
-<div class="container">
-  <div class="header">
-    <img src="assets/icons/Calendar.svg" alt="Calendar" />
-    <p>14 June, 2021</p>
-    <img src="assets/icons/Pushpin.svg" alt="Pushpin" />
+<div
+  class="container"
+  [ngStyle]="{ 'background-color': note?.pinned ? '#ffd073' : '#202123' }"
+>
+  <div
+    class="header"
+    [ngStyle]="{
+      'background-color': note?.pinned ? 'hsl(40, 90%, 65%)' : '#262729'
+    }"
+  >
+    <img
+      src="assets/icons/Calendar.svg"
+      alt="Calendar"
+      [ngStyle]="{
+        filter: note?.pinned ? 'brightness(0%)' : 'none'
+      }"
+    />
+    <p
+      [ngStyle]="{
+        color: note?.pinned ? '#28263b;' : '#fff'
+      }"
+    >
+      {{ note?.date }}
+    </p>
+    <img
+      src="assets/icons/Pushpin.svg"
+      alt="Pushpin"
+      [ngStyle]="{
+        filter: note?.pinned ? 'brightness(0%)' : 'none'
+      }"
+    />
   </div>
+  <h5
+    [ngStyle]="{
+      color: note?.pinned ? '#28263b;' : '#fff'
+    }"
+  >
+    {{ note?.title }}
+  </h5>
+  <p
+    [ngStyle]="{
+      color: note?.pinned ? '#28263b;' : '#fff'
+    }"
+  >
+    {{ note?.description }}
+  </p>
 </div>

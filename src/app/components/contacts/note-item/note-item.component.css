@@ -1,0 +1,39 @@
+.container {
+  padding: 8px;
+  border-radius: 16px;
+  width: 350px;
+  height: 276px;
+  box-shadow: 0px 20px 30px -18px rgba(0, 0, 0, 0.25);
+  & h5 {
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 17px 24px 11px 24px;
+  }
+  & p:nth-child(3) {
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 24px;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  gap: 10px;
+  height: 25px;
+  width: 321px;
+  padding: 14px;
+  & img:nth-child(3) {
+    margin-left: auto;
+  }
+  & img {
+    filter: brightness(0%);
+  }
+}
