@@ -21,6 +21,8 @@ import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { ForgotPasswordComponent } from './pages/forgot-password/forgot-password.component';
 import { SearchbarComponent } from './components/searchbar/searchbar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { NoteItemComponent } from './components/contacts/note-item/note-item.component';
+import { HeaderComponent } from './components/common/header/header.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +45,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ForgotPasswordComponent,
     SearchbarComponent,
     NavbarComponent,
+    NoteItemComponent,
+    HeaderComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

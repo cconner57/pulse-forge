@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & h2 {
+    color: white;
+    font-family: var(--main-font);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  & .settings {
+    display: flex;
+    gap: 16px;
+    & img {
+      width: 20px;
+      height: 20px;
+      padding: 14px;
+      border-radius: 14px;
+      border: 1px solid #232324;
+    }
+    & button {
+      color: white;
+      font-family: var(--main-font);
+      display: flex;
+      width: 138px;
+      padding: 14px 24px 14px 22px;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      border-radius: 14px;
+      border: 1px solid var(--Surface-1, #202123);
+      background: var(--Accent, #2d99ff);
+      box-shadow: 0px 4px 16px 0px rgba(0, 129, 255, 0.25);
+    }
+  }
+}
