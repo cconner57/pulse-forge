@@ -6,7 +6,7 @@ export const contacts = [
     jobTitle: 'Creative Director',
     email: 'cooper@example.com',
     phone: '+1 070-123-4588',
-    avatar: 'assets/avatars/large/#1.svg',
+    avatar: 'assets/avatars/large/1.svg',
     birthday: {
       month: 'March',
       day: 17,
@@ -27,7 +27,7 @@ export const contacts = [
     jobTitle: 'Marketing Manager',
     email: 'sarah@example.com',
     phone: '+1 070-234-5678',
-    avatar: 'assets/avatars/large/#2.svg',
+    avatar: 'assets/avatars/large/2.svg',
     birthday: {
       month: 'December',
       day: 5,
@@ -48,7 +48,7 @@ export const contacts = [
     jobTitle: 'Software Engineer',
     email: 'john@example.com',
     phone: '+1 070-345-6789',
-    avatar: 'assets/avatars/large/#3.svg',
+    avatar: 'assets/avatars/large/3.svg',
     birthday: {
       month: 'July',
       day: 12,
@@ -69,7 +69,7 @@ export const contacts = [
     jobTitle: 'Accountant',
     email: 'emily@example.com',
     phone: '+1 070-456-7890',
-    avatar: 'assets/avatars/large/#4.svg',
+    avatar: 'assets/avatars/large/4.svg',
     birthday: {
       month: 'May',
       day: 21,
@@ -90,7 +90,7 @@ export const contacts = [
     jobTitle: 'Teacher',
     email: 'michael@example.com',
     phone: '+1 070-567-8901',
-    avatar: 'assets/avatars/large/#5.svg',
+    avatar: 'assets/avatars/large/5.svg',
     birthday: {
       month: 'August',
       day: 30,
@@ -111,7 +111,7 @@ export const contacts = [
     jobTitle: 'Graphic Designer',
     email: 'linda@example.com',
     phone: '+1 070-678-9012',
-    avatar: 'assets/avatars/large/#6.svg',
+    avatar: 'assets/avatars/large/6.svg',
     birthday: {
       month: 'February',
       day: 8,
@@ -132,7 +132,7 @@ export const contacts = [
     jobTitle: 'Sales Manager',
     email: 'daniel@example.com',
     phone: '+1 070-789-0123',
-    avatar: 'assets/avatars/large/#7.svg',
+    avatar: 'assets/avatars/large/7.svg',
     birthday: {
       month: 'April',
       day: 10,
@@ -153,7 +153,7 @@ export const contacts = [
     jobTitle: 'Doctor',
     email: 'olivia@example.com',
     phone: '+1 070-890-1234',
-    avatar: 'assets/avatars/large/#8.svg',
+    avatar: 'assets/avatars/large/8.svg',
     birthday: {
       month: 'June',
       day: 15,
@@ -174,7 +174,7 @@ export const contacts = [
     jobTitle: 'Chef',
     email: 'william@example.com',
     phone: '+1 070-901-2345',
-    avatar: 'assets/avatars/large/#9.svg',
+    avatar: 'assets/avatars/large/9.svg',
     birthday: {
       month: 'October',
       day: 25,
@@ -195,7 +195,7 @@ export const contacts = [
     jobTitle: 'Marketing Coordinator',
     email: 'ava@example.com',
     phone: '+1 070-012-3456',
-    avatar: 'assets/avatars/large/#10.svg',
+    avatar: 'assets/avatars/large/10.svg',
     birthday: {
       month: 'September',
       day: 3,
@@ -216,7 +216,7 @@ export const contacts = [
     jobTitle: 'Architect',
     email: 'james@example.com',
     phone: '+1 070-123-4567',
-    avatar: 'assets/avatars/large/#11.svg',
+    avatar: 'assets/avatars/large/11.svg',
     birthday: {
       month: 'November',
       day: 12,
@@ -237,7 +237,7 @@ export const contacts = [
     jobTitle: 'Architect',
     email: 'taylor@example.com',
     phone: '+1 070-123-4447',
-    avatar: 'assets/avatars/large/#12.svg',
+    avatar: 'assets/avatars/large/12.svg',
     birthday: {
       month: 'November',
       day: 12,

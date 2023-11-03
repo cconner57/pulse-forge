@@ -2,10 +2,51 @@
   color: #fff;
   display: flex;
   flex-direction: column;
+  border-radius: 16px;
+  background: var(--Surface-1, #202123);
+  box-shadow: 0px 20px 30px -18px rgba(0, 0, 0, 0.25);
+  width: 227px;
+  height: 410px;
+  align-items: center;
+  padding: 19px 24px 28px;
+  & img:nth-child(1) {
+    margin-left: auto;
+    margin-bottom: 3px;
+  }
+  & h4 {
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 16px 0 12px;
+  }
+  & p:nth-child(5) {
+    margin: 23px 0 24px;
+  }
+}
+
+.primary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 23px;
 }
 
 .title {
+  padding: 7px 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #38383b;
 }
 
 .message {
+  width: 200px;
+  padding: 14px 24px;
+  border-radius: 14px;
+  background: #313133;
+  color: #fff;
+  border: none;
+  font-family: var(--main-font);
 }
