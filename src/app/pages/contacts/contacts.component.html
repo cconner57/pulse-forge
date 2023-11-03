@@ -1,1 +1,6 @@
-<p>contacts works!</p>
+<div class="page">
+  <app-header />
+  <div class="main">
+    <app-contact-item *ngFor="let contact of contacts" [contact]="contact" />
+  </div>
+</div>

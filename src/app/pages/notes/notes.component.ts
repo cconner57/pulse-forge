@@ -1,13 +1,6 @@
 import { Component } from '@angular/core';
 import { notes } from '../../mock/notes';
-
-interface Note {
-  date: string;
-  description: string;
-  id: number;
-  pinned: boolean;
-  title: string;
-}
+import { Note } from '../../models/notes';
 
 @Component({
   selector: 'app-notes',

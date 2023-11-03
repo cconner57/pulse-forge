@@ -1,0 +1,11 @@
+.container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+}
+
+.message {
+}

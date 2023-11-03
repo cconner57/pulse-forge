@@ -1,0 +1,21 @@
+<div class="container">
+  <img
+    src="assets/icons/More2.svg"
+    alt="More Options"
+    height="26px"
+    width="26px"
+  />
+  <img
+    src="{{ contact?.avatar }}"
+    alt="User Avatar"
+    height="150px"
+    width="150px"
+  />
+  <div>
+    <p>{{ contact?.firstName }} {{ contact?.lastName }}</p>
+    <p class="title">{{ contact?.jobTitle }}</p>
+  </div>
+  <p>{{ contact?.email }}</p>
+  <p>{{ contact?.phone }}</p>
+  <p class="message">Message</p>
+</div>
