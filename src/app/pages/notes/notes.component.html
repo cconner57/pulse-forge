@@ -1,5 +1,5 @@
 <div class="page">
-  <app-header />
+  <app-header [pageName]="pageName" />
   <div class="main">
     <app-note-item *ngFor="let note of notes" [note]="note" />
   </div>

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./inbox.component.css']
 })
 export class InboxComponent {
-
+  pageName = 'Inbox';
 }

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./file-manager.component.css']
 })
 export class FileManagerComponent {
-
+  pageName = 'File Manager';
 }

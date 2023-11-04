@@ -1,5 +1,5 @@
 <div class="page">
-  <app-header />
+  <app-header [pageName]="pageName" />
   <div class="main">
     <app-contact-item *ngFor="let contact of contacts" [contact]="contact" />
   </div>

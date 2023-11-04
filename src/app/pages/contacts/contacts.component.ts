@@ -9,4 +9,5 @@ import { Contact } from '../../models/contacts';
 })
 export class ContactsComponent {
   contacts: Contact[] = contacts;
+  pageName = 'Contacts';
 }

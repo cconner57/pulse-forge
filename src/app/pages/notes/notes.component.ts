@@ -9,4 +9,5 @@ import { Note } from '../../models/notes';
 })
 export class NotesComponent {
   notes: Note[] = notes;
+  pageName = 'Notes';
 }

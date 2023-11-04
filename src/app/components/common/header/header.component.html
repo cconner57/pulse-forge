@@ -1,7 +1,31 @@
 <div class="container">
-  <h2>Notes</h2>
-  <div class="settings">
-    <img src="assets/icons/Filter.svg" alt="filter" />
-    <button>+ Add Note</button>
-  </div>
+  <h2>{{ pageName }}</h2>
+  <ng-container [ngSwitch]="pageName">
+    <div class="settings contacts-settings" *ngSwitchCase="'Contacts'">
+      <div class="toggle">
+        <img
+          src="assets/icons/Grid.svg"
+          alt="filter"
+          height="20px"
+          width="20px"
+        />
+        <img
+          src="assets/icons/List.svg"
+          alt="filter"
+          height="20px"
+          width="20px"
+        />
+      </div>
+      <button>+ Add Contact</button>
+    </div>
+    <div class="settings notes-settings" *ngSwitchCase="'Notes'">
+      <img
+        src="assets/icons/Filter.svg"
+        alt="filter"
+        height="20px"
+        width="20px"
+      />
+      <button [ngStyle]="{ width: '138px' }">+ Add Note</button>
+    </div>
+  </ng-container>
 </div>
