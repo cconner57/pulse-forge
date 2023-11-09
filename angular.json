@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "pulse-forge:build:production"
+              "buildTarget": "pulse-forge:build:production"
             },
             "development": {
-              "browserTarget": "pulse-forge:build:development"
+              "buildTarget": "pulse-forge:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pulse-forge:build"
+            "buildTarget": "pulse-forge:build"
           }
         },
         "test": {
